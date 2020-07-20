@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 
 	int nota = 0;
 	
-	cout << "Ingrese la nota que obtuvo en clase: ";
+	cout << "Ingrese la nota que obtuvo en clase:  ";
 	cin >> nota;
 	
 	if (nota > 100 || nota < 0)
