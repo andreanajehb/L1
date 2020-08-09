@@ -1,21 +1,24 @@
-int sumar(int a, int b)
+int sumar (int a, int b)
 {
     return a + b;
 }
 
-int restar(int a, int b)
+int restar (int a, int b)
 {
     return a - b;
 }
 
-int calcular(int a, int b, char operador)
+int calcular (int a, int b, char operador)
 {
-    if (operador == '+') {
-        return sumar(a, b);
-    }
-    if (operador == '-') {
-        return restar(a, b);
-    }
+   if(operador == '+')
+   {
+       return sumar (a,b);
+   }
+   if(operador == '-')
+   {
+       return restar (a,b);
+   }
+   throw "Operador no valido";
 
-    throw "Operador no valido";
+
 }
