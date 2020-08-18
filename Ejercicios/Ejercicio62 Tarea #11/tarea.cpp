@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
 
 
 int sumas = 0;
+
 int arreglo [5][5];
 
 
